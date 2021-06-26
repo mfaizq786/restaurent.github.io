@@ -1,0 +1,270 @@
+*{  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: latha;
+    color:white;
+    background:linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0))
+    ,url(../images/1.jpg);
+    background-size: cover;
+}
+
+ .wd{
+     position: fixed;
+   border:1px solid white;  
+   width:30%;
+   height:100%;
+   background-color: black;
+   opacity: 0.9;
+   padding: 3%;
+
+ }
+
+ .wd .name{
+     font-size: 250%;
+     word-spacing: 7px;
+     padding-bottom: 5%;
+     text-shadow: 2px 3px 5px blue;
+ }
+ .wd h1{
+     text-align:center;
+     text-transform: uppercase;
+     font-weight: 100px; 
+     text-shadow: 0px 0px 10px red;
+     padding-top: 5%;
+     padding-bottom: 5%;
+ }
+ .wd h4{
+     text-align:justify;
+     color:darkgray;
+     font-weight: normal; 
+     font-size: 150%;
+ }
+ .wd h2{
+     text-align:center;
+     text-transform:uppercase;
+     font-weight: normal;
+     margin:40px auto;
+     text-shadow: 0px 0px 10px yellow;
+ 
+ }
+ .opt form, input[type="button"]{
+     background-color: black;
+     color:white;
+     padding:10px;
+     margin:-14px auto;
+     padding-right: 50px;
+     padding-left: 50px;
+     text-align:center;
+     cursor:pointer;
+    
+ }
+ .opt form input[type="button"]:hover{
+     background-color: rgb(114, 236, 114);
+     box-shadow: 0px 0px 10px white ;
+     border:none;
+     
+
+     
+ }
+
+ .box{
+    width:70%;
+    float:right;
+    border:1px solid none;
+    padding:1% 2.5% 1% 2.5%;
+    
+    }
+   .box nav{
+        width:100%;
+        height:8%;
+        border:1px solid white;
+        position:sticky;
+        top:0%;
+        z-index:10;
+        background-color: black;
+    }
+    .box ul{
+      margin:0 13%;
+      /* position: sticky;
+      top:0%; */
+    }
+    .box ul li{
+        width:120px;
+        float:left;
+        margin:10px auto;
+        text-align:center;
+        border:none;
+        padding:1%;
+        
+    }	
+    .box ul li a{
+        text-decoration: none;
+        color:darkgray;
+    }
+    .box ul li:hover{
+        background-color: green;
+    }
+    .box ul li a:hover{
+       color:white;
+    }
+
+    .box .menu h2, .box .photos h2{
+        text-align:center;
+        margin: 4% auto;
+        font-size: 200%;
+
+    }
+
+    .box .photos img{
+        height: 24.5%;
+        width: 24.5%;   
+    }
+    
+    /*-------- Order onile css ------------*/
+    .box .online{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 60%;
+        
+        
+    }
+    .box .online h2{
+       text-align: center;
+       font-size: 200%;
+       margin-bottom:5%;
+    }
+    .box .online .box1, .box .online .box2{
+        width:30%;
+        border:1px solid white;
+        height:100%;
+        float: left;
+        
+    }
+    .box .online .box2{
+        width:70%;
+        padding:2%;
+        overflow-y: scroll;
+        
+    }
+    
+    .box .online .box1 ul{
+     margin-top: 3%;
+     margin-bottom: 3%;
+    }
+    .box .online .box1 ul li{
+        width:100%;
+        font-size:150%; 
+        padding:1%;  
+        cursor: pointer;
+    }
+    .box .online .box1 ul li:active{
+        background:indianred;
+    }
+    .box .online .box1 ul li:hover{
+        background-color: blueviolet;
+
+    }
+    
+    /* css for box 2 */
+
+    .online .box2 p{
+        font-size: 200%;
+    }
+    .online .box2 p input[type="search"]{
+        float:right;
+        width:50%;
+        height:10%;
+        font-size:20px;
+        text-align:center;
+        border-radius:5px;
+        border:none;
+        outline:none;
+
+    }
+
+    .box2 .address{
+        width:100%;
+        background:palevioletred;
+
+    }
+    .box2 .address span{
+        float:right;
+        margin-right: 8px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .box2 .offer{
+        margin-top:2%;
+        display:flex;
+    }
+    .box2 .offer .offers{
+        float:left;
+        background:palevioletred;
+        margin-right:2%;
+        padding:0.1 2% ;
+        
+    }
+
+    .online .box2 .items{
+       
+        margin-top:2%; 
+        margin-bottom: 2%;
+        
+    }
+
+    .box2 .items h3{
+        text-align:left;
+        padding-top: 2%;
+    }
+    .box2 .items h4{
+        text-align:left;
+        padding-top: 2%;
+        font-size: 150%;
+    }
+    .box2 .items h4 i{
+        font-size:smaller;
+    }
+    .box2 .items h5, .box2 .items p{
+        padding-left:5%;
+    }
+    .box2 .items p{
+        font-size: 16px;;
+    }
+    .box2 .items input[type="submit"]{
+        padding:0.5%;
+        font-size:16px;
+        position:relative;
+        left:90%;
+        margin-bottom: 2%;
+        border-radius: 10px;
+        border:none;
+       
+    }
+    .box2 .items input[type="submit"]:hover{
+        background:salmon;
+    }
+
+    /* css for contact us */
+
+    body .box .contact{
+    position: relative;
+    top:10%;
+    }
+
+    .box .contact h2{
+        text-align:center;
+        padding-top: 5%;
+    }
+
+    .box footer{
+        
+        width:100%;
+        border:1px solid white;
+        background:black;
+        text-align: center;
+        padding: 2%;
+    }
