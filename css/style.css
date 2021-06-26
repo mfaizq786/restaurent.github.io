@@ -332,8 +332,8 @@ body{
            
             font-size: 12px;
         }
-        .box .online .box1{
-            height: 60%;
+        .box .online .box1, .box .online .box2{
+            height: 62%;
         }
         .box .online .box1 ul li{
             font-size:16px;
